@@ -3,7 +3,8 @@ Readout data from ultrasonic Echograph 1090 (limited protocol)
 
 # Description:
 This is a quick-and-dirty solution to get the displayed graph from the ultrasonic device Karl Deutsch Echograph 1090 via USB to the computer. 
-Under Linux, the device is attached as a virtual serial connection. This Python3-script transfers the RAW-data via this connection to the computer and stores the displayed graph as *.svg and *.csv.
+Under Linux, the device is attached as a virtual serial connection. This Python3-script transfers the RAW-data via this connection to the computer and stores the displayed graph as *.svg and *.csv, for example like this:
+![ultrasonic-example-grafic](ultrasonic_test_example.svg.png)
 
 # Tested configuration:
  - Linux Host System: Debian Stretch
